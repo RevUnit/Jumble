@@ -57,7 +57,7 @@ public class JumbleService extends Service implements JumbleConnection.JumbleCon
     }
 
     /** Intent to connect to a Mumble server. See extras. **/
-    public static final String ACTION_CONNECT = "com.morlunk.jumble.CONNECT";
+    public static final String ACTION_CONNECT = "com.morlunk.jumble.ACTION_CONNECT";
     public static final String EXTRAS_SERVER = "server";
     public static final String EXTRAS_SHOW_CHAT_NOTIFICATION = "show_chat_notifications";
     public static final String EXTRAS_AUTO_RECONNECT = "auto_reconnect";
